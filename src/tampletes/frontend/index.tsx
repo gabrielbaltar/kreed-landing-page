@@ -1,4 +1,5 @@
 import * as S from './styles'
+import Header from '../../organisms/Header/index';
 
 type FrontendProps = {
     children: React.ReactNode;
@@ -6,7 +7,9 @@ type FrontendProps = {
 
 
 const Frontend = ({ children }: FrontendProps) => {
-    return <S.Container>Testando o Front-end{children}</S.Container>;
+    return <S.Container>
+        <Header></Header>
+        </S.Container>;
 }
 
 export default Frontend;

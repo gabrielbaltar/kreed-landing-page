@@ -5,13 +5,19 @@ const GlobalStyle = createGlobalStyle`
     * {
         
         --background-color: #f8fdff;
+        --primary-color: #1E255E;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
+        text-rendering:optimizeLegibility;
+        -webkit-font-smoothing: antialiased; 
+        -moz-osx-font-smoothing: grayscale;
 
         body {
             background-color: var(--background-color);
+            font-family: "Poppins", sans-serif;
+            font-size: 1rem;
         }
 
 
