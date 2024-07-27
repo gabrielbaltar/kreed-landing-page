@@ -1,6 +1,12 @@
+import * as S from '../Button/style';
+
 const Button = () => {
 
-    return <button>Enquiry</button>
+    return (
+        <S.Container>
+            Enquiry
+        </S.Container>
+    );
 
 }
 

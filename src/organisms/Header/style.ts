@@ -6,6 +6,8 @@ export const Box = styled.header`
     height: 2.625rem;
     display: flex;
     justify-content: space-between;
+    align-self: center;
+    padding: 0 1.25rem;
 
     > img {
         width: 128px;

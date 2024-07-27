@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
         
         --background-color: #f8fdff;
         --primary-color: #1E255E;
+        --border-color: #17A4D0;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -26,9 +27,10 @@ const GlobalStyle = createGlobalStyle`
         }
         
         button {
-            background-color: none;
+            background-color: var(--background-color);
             border: none;
             outline: none;
+            font-family: 'Poppins', sans-serif;
         }
 
         a {
