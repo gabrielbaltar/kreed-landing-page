@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
         --background-color: #f8fdff;
         --primary-color: #1E255E;
         --border-color: #17A4D0;
+        --support-text: rgba(30, 37, 94, 0.7);
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -14,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
         text-rendering:optimizeLegibility;
         -webkit-font-smoothing: antialiased; 
         -moz-osx-font-smoothing: grayscale;
+        font-family: 'Poppins', sans-serif;
 
         body {
             background-color: var(--background-color);
